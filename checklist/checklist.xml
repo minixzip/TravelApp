@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_check"></include>
+
+    <LinearLayout
+        android:id="@+id/checklist"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:orientation="vertical" />
+
+    <ImageButton
+        android:id="@+id/recommendButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/round"
+        android:elevation="20dp"
+        android:src="@drawable/thumb" />
+
+    <android.widget.Button
+        android:id="@+id/addButton"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#9FB8CC"
+        android:text="+ 리스트 추가"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/shadow"
+         />
+
+</LinearLayout>
