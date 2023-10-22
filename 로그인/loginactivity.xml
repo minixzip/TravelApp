@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".TravelAddActivity"
-    android:background="#E2EDF3">
+    tools:context=".TravelAddActivity">
     <include layout="@layout/toolbar_lgin"></include>
 
 
@@ -24,23 +23,21 @@
     <EditText
         android:id="@+id/et_email"
         android:layout_width="280dp"
-        android:layout_height="38dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="이메일을 입력하세요"
         android:inputType="textEmailAddress"
         android:layout_gravity="center"
-        android:background="@drawable/rad"
         android:layout_marginTop="10dp"/>
     <EditText
         android:id="@+id/et_pwd"
         android:layout_width="280dp"
-        android:layout_height="38dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="비밀번호를 입력하세요"
         android:inputType="textPassword"
-        android:background="@drawable/rad"
         android:layout_gravity="center"
-        android:layout_marginTop="5dp"/>
+        />
 
     <android.widget.Button
         android:id="@+id/btn_login"
