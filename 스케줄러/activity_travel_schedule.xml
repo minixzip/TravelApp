@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2EDF3"
+    android:orientation="vertical"
+    tools:context=".TravelScheduleActivity">
+
+    <include layout="@layout/toolbar_sc"></include>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shadow"
+        android:backgroundTint="#9FB8CC"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infoDest"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shadow"
+            android:gravity="center|left"
+            android:text="TextView"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/infoDate"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/solid_txt"
+            android:text="TextView" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center">
+
+
+        <android.widget.Button
+            android:id="@+id/box1"
+            android:layout_width="380dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="여행 일정"
+            android:textColor="@color/white"
+            android:background="@drawable/shadow"
+            android:backgroundTint="#2D485E">
+
+
+
+        <android.widget.Button
+            android:id="@+id/box2"
+            android:layout_width="180dp"
+            android:layout_height="208dp"
+            android:layout_toStartOf="@+id/box3"
+            android:layout_toLeftOf="@+id/box3"
+            android:background="@drawable/shadow"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#2D485E"
+            android:text="체크리스트"
+            android:textColor="@color/white" />
+
+        <android.widget.Button
+            android:id="@+id/box3"
+            android:layout_width="180dp"
+            android:layout_height="208dp"
+            android:background="@drawable/shadow"
+            android:backgroundTint="#2D485E"
+            android:layout_alignParentBottom="true"
+            android:text="나의 도시 환율정보"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>
