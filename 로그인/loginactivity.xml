@@ -54,11 +54,11 @@
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="295dp"
+        android:layout_marginLeft="275dp"
         android:layout_marginTop="-17dp"
         android:background="#00ff0000"
         android:text="회원가입"
-        android:textColor="#5E6063"
+        android:textColor="#4B4C4E"
         android:textSize="10dp" />
 
 
