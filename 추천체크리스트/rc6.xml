@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+    <item android:drawable="@drawable/round_btn"
+        android:width="80dp"
+        android:height="80dp"/>
+
+    <!-- Foreground image (on top of the background) -->
+    <item android:drawable="@drawable/bag"
+        android:width="81dp"
+        android:height="81dp"
+        android:gravity="center"/>
+</layer-list>

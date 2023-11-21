@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2EDF3"
+    android:orientation="vertical"
+    tools:context=".TravelAddActivity">
+    <include layout="@layout/toolbar_rm"></include>
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+
+        <android.widget.ImageButton
+            android:id="@+id/Button1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:elevation="7dp"
+            android:src="@drawable/rc1"/>
+
+        <android.widget.ImageButton
+            android:id="@+id/Button2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:elevation="7dp"
+            android:src="@drawable/rc2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <android.widget.ImageButton
+            android:id="@+id/Button3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:elevation="7dp"
+            android:src="@drawable/rc3"/>
+
+        <android.widget.ImageButton
+            android:id="@+id/Button4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:elevation="7dp"
+            android:src="@drawable/rc4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+        <android.widget.ImageButton
+            android:id="@+id/Button5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:elevation="7dp"
+            android:src="@drawable/rc5"
+            />
+
+        <android.widget.ImageButton
+            android:id="@+id/Button6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:elevation="7dp"
+            android:src="@drawable/rc6"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
