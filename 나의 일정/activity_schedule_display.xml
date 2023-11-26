@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    tools:context=".TravelAddActivity">
+
+    <include layout="@layout/toolbar_display"></include>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#E2EDF3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-175dp"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="117dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/solid_txt"
+            android:gravity="center"
+            android:text="TextView 1" />
+
+        <!-- 첫 번째 Button -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/solid_txt"
+            android:gravity="center"
+            android:text="TextView 2" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/solid_txt"
+            android:gravity="center"
+            android:text="TextView 2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="55dp"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+
+
+        <!-- 두 번째 Button -->
+        <android.widget.Button
+            android:id="@+id/button1"
+            android:layout_width="77dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/textView1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/map2" />
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Day1"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#89ACC8"
+                android:text="Day1" />
+
+
+            <Button
+                android:id="@+id/Day2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#89ACC8"
+                android:text="Day2" />
+
+            <Button
+                android:id="@+id/Day3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#89ACC8"
+                android:text="Day3" />
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="391dp"
+            android:layout_height="195dp"
+            android:layout_below="@id/buttonContainer"
+            android:backgroundTint="#CBD4DC"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rad3" />
+
+
+        </FrameLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/frame">
+
+            <LinearLayout
+                android:id="@+id/chapterEnter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <android.widget.Button
+                    android:id="@+id/addChapterButton"
+                    android:layout_width="370dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/solid_txt"
+                    android:backgroundTint="#66869F"
+                    android:text="+일정 추가하기"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+

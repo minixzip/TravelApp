@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    android:background="@drawable/rad2">
+
+    <!-- Place -->
+
+    <TextView
+        android:id="@+id/placeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place:" />
+
+    <!-- Time -->
+
+    <EditText
+        android:id="@+id/placeEditText"
+        android:layout_width="338dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/placeTextView"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placeTextView"
+        android:text="Time:" />
+
+    <EditText
+        android:id="@+id/timeEditText"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/timeTextView"
+        android:inputType="text" />
+
+    <!-- Memo -->
+    <TextView
+        android:id="@+id/memoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeTextView"
+        android:text="Memo:" />
+
+    <EditText
+        android:id="@+id/memoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_toRightOf="@id/memoTextView"
+        android:lines="3" />
+
+    <!-- Button to add a new schedule -->
+    <android.widget.Button
+        android:id="@+id/addScheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/memoEditText"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="저장"
+        android:textColor="@color/white"
+        android:backgroundTint="#9FB8CC"
+        android:background="@drawable/solid_txt"/>
+
+</RelativeLayout>

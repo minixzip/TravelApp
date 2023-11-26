@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+
+    <!-- Foreground image (on top of the background) -->
+    <item android:drawable="@drawable/line" />
+
+    <item android:drawable="@drawable/map"
+        android:width="48dp"
+        android:height="48dp"
+        android:gravity="center"/>
+</layer-list>
