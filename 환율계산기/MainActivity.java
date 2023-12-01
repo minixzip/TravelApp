@@ -23,7 +23,7 @@ import java.text.ParseException;
 import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
-    private String[] currencyList = {"KRW", "USD", "EUR", "CAD","JPY"};  // 추가 할 나라 여기에 쓰면 됨~
+    private String[] currencyList = {"KRW", "USD", "EUR", "CAD","JPY"};  // 추가 할 나라 여기에 쓰면 될껄.요?
     public TextView et_from;
     public TextView tv_to;
     private Button btn_exchange;
